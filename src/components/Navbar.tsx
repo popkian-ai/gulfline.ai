@@ -31,9 +31,6 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('use-cases')} className="text-slate-300 hover:text-cyan-400 transition-colors text-sm">
               Use Cases
             </button>
-            <button onClick={() => scrollToSection('pricing')} className="text-slate-300 hover:text-cyan-400 transition-colors text-sm">
-              Pricing
-            </button>
             <button onClick={() => scrollToSection('faq')} className="text-slate-300 hover:text-cyan-400 transition-colors text-sm">
               FAQ
             </button>
@@ -69,12 +66,6 @@ export default function Navbar() {
               className="block w-full text-left px-4 py-2 text-slate-300 hover:text-cyan-400 hover:bg-slate-800/50 rounded transition-colors"
             >
               Use Cases
-            </button>
-            <button
-              onClick={() => scrollToSection('pricing')}
-              className="block w-full text-left px-4 py-2 text-slate-300 hover:text-cyan-400 hover:bg-slate-800/50 rounded transition-colors"
-            >
-              Pricing
             </button>
             <button
               onClick={() => scrollToSection('faq')}

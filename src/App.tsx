@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import UseCases from './components/UseCases';
 import HowItWorks from './components/HowItWorks';
 import Features from './components/Features';
-import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import Booking from './components/Booking';
 import Footer from './components/Footer';
@@ -23,9 +22,6 @@ function App() {
       </div>
       <div id="use-cases">
         <UseCases />
-      </div>
-      <div id="pricing">
-        <Pricing />
       </div>
       <div id="faq">
         <FAQ />
